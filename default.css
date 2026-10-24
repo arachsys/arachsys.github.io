@@ -1,0 +1,68 @@
+body {
+  font: 12pt/1.5 Georgia, serif;
+  margin: 1em auto 3em;
+  max-width: 48em;
+  padding: 0 1em;
+}
+
+a:any-link {
+  color: #06d;
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0 2em;
+}
+
+h1, h2, h3 {
+  border-bottom: 0.5px solid black;
+  font: 500 1.4em/1.25 "Helvetica Neue", Helvetica, sans-serif;
+  padding: 0.5rem 0;
+}
+
+h2 {
+  font: 500 1.2em/1.25 "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h3 {
+  font: 400 1.2em/1.25 "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 a:any-link, h2 a:any-link, h3 a:any-link {
+  color: inherit;
+}
+
+hr {
+  border: none;
+  border-bottom: 0.5px solid black;
+}
+
+img.header {
+  float: right;
+  height: 1.4em;
+  border-radius: 50%;
+  margin: 0.6em 0 0.6em 0.6em;
+}
+
+pre {
+  margin: 0 2em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 2em;
+  thead > tr:last-child > * {
+    border-bottom: 0.5px solid black;
+  }
+  thead + tbody > tr:first-child > * {
+    padding-top: 0.4em;
+  }
+  tr > * + * {
+    padding-left: 2em;
+  }
+}

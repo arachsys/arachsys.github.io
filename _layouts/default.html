@@ -1,0 +1,24 @@
+<!doctype html>
+<title>{{ page.title }}</title>
+<link rel="stylesheet" type="text/css" href="/default.css">
+<link rel="stylesheet" type="text/css" href="/highlight.css">
+<link rel="icon" type="image/jpeg" href="/images/avatar.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{%- if page.features contains 'mathjax' %}
+<script>window.MathJax = { options: { enableMenu: false } };</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+  type="text/javascript" async></script>
+{%- endif %}
+
+<!-- Body generated from Markdown by GitHub -->
+<a href="mailto:chris@arachsys.com" title="chris@arachsys.com">
+  <img src="/images/email.svg" alt="chris@arachsys.com" class="header">
+</a>
+<a href="https://github.com/arachsys" title="GitHub">
+  <img src="/images/github.svg" alt="GitHub" class="header">
+</a>
+<a href="/" title="Home page">
+  <img src="/images/avatar.jpg" alt="Chris Webb" class="header">
+</a>
+{{ content -}}
